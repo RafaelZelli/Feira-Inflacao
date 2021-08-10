@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo.css">      
+    <title>Calculo Inflação - Feira</title>
+</head>
+<body>
+    <div id="container">
+       <form class="frutas">        
+
+        <div id="selecione">
+        <h1>Selecione a fruta:</h1>
+        <input type="radio" name="fruta" id="abacaxi"value="O abacaxi" checked>
+        <label for="abacaxi">Abacaxi</label>
+        <input type="radio" name="fruta" id="laranja" value="A laranja">
+        <label for="laranja">Laranja</label>
+        <input type="radio" name="fruta" id="limao" value="O limão">
+        <label for="limao">Limão</label>
+        <input type="radio" name="fruta" id="tomate" value="O tomate">
+        <label for="tomate">Tomate</label>
+        </div> 
+
+        <div id="boxdigite">
+        <label>Digite o valor da semana passada</label> 
+        <input id="valoranterior"> 
+        <label>Digite o valor atual</label> 
+        <input id="valoratual"> 
+        <button type="button" onclick="calucaInflacao()">Calcular</button>
+        </div>
+        </form>
+
+        <div id="resultado">
+        </div>
+        
+    </div>
+</body>
+</html>
+
+<script src="./comparativo-feira.js"></script>
