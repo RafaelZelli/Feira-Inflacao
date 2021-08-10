@@ -44,10 +44,17 @@ body{
 
 #valoranterior{
     width: 150px;
+    background-color: blanchedalmond;
+    border: 2px solid black;
+    border-radius: 4px;
 }
 
 #valoratual{
     width: 150px;
+    background-color: blanchedalmond;
+    border: 2px solid black;
+    border-radius: 4px;
+
 }
 
 #boxdigite button{
@@ -66,10 +73,10 @@ body{
 }
 
 #boxdigite button:hover{
-    background-color: rgb(255, 255, 255);
     color: black;
     font-weight: 500;
     border:2px solid black;
+    background-color: blanchedalmond;
 }
 
 .frutas{
